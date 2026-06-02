@@ -1,0 +1,43 @@
+.erro-container {
+  background-color: white;
+  padding: 1.5625rem;
+  margin: 1.5625rem 0;
+  border-radius: 0.75rem;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.erro-texto {
+  font-size: 1.25rem;
+  margin-bottom: 1.25rem;
+  font-weight: 600;
+  color: #c96c4b;
+}
+
+.erro-botao {
+  border: none;
+  background-color: #c96c4b;
+  color: white;
+  padding: 0.75rem 1.25rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.erro-botao:hover {
+  opacity: 0.9;
+}
+@media (max-width: 480px) {
+  .erro-container {
+    padding: 1.25rem;
+  }
+
+  .erro-texto {
+    font-size: 1.125rem;
+  }
+
+  .erro-botao {
+    width: 100%;
+  }
+}

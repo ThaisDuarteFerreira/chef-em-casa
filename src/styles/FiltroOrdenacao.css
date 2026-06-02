@@ -1,0 +1,40 @@
+.filtro-container {
+  margin: 1.25rem 0;
+}
+
+.filtro-botao {
+  padding: 0.625rem 1.25rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  border: none;
+  background-color: #c96c4b;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.filtro-botao:hover {
+  opacity: 0.9;
+}
+
+.filtro-menu {
+  display: flex;
+  gap: 1.25rem;
+  margin-top: 0.9375rem;
+}
+
+.filtro-select {
+  padding: 0.625rem;
+  border-radius: 0.5rem;
+  min-width: 11.375rem;
+  border: 1px solid #ccc;
+}
+
+@media (max-width: 768px) {
+  .filtro-menu {
+    flex-direction: column;
+  }
+  .filtro-select {
+    width: 100%;
+  }
+}

@@ -1,0 +1,15 @@
+.footer {
+  margin-top: 3.75rem;
+  padding: 1.875rem 1.25rem;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+.footer p {
+  margin: 0.5rem 0;
+}
+
+.footer-texto {
+  color: #777;
+  font-size: 0.875rem;
+}

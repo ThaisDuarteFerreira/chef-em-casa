@@ -1,0 +1,18 @@
+.receita-card {
+  position: relative;
+}
+
+.favorito-btn {
+  position: absolute;
+  top: 1rem;
+  right: 1.15rem;
+  border: none;
+  background: none;
+  font-size: 1.875rem;
+  cursor: pointer;
+  z-index: 10;
+  transition: 0.3s;
+}
+.favorito-btn:hover {
+  transform: scale(1.2);
+}

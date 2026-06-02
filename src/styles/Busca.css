@@ -1,0 +1,46 @@
+.busca-container {
+  display: flex;
+  gap: 0.625rem;
+  margin: 1.5rem 0;
+}
+
+.busca-input {
+  flex: 1;
+  padding: 0.75rem 0.9rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  outline: none;
+  transition: 0.3s;
+}
+.busca-input:focus {
+  border-color: #c96c4b;
+  box-shadow: 0 0 8px rgba(201, 108, 75, 0.3);
+}
+
+.busca-botao {
+  padding: 0.75rem 1.25rem;
+  border: none;
+  border-radius: 0.5rem;
+  background-color: #c96c4b;
+  font-size: 1rem;
+  color: white;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.busca-botao:hover {
+  opacity: 0.9;
+}
+
+@media (max-width: 768px) {
+  .busca-container {
+    flex-direction: column;
+  }
+  .busca-input {
+    width: 100%;
+  }
+  .busca-botao {
+    width: 100%;
+  }
+}
