@@ -1,16 +1,54 @@
-# React + Vite
+# Chef em Casa 🍳
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicação web desenvolvida com React para busca e visualização de receitas utilizando a API TheMealDB.
 
-Currently, two official plugins are available:
+## Funcionalidades
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Buscar receitas por nome
+- Visualizar detalhes completos da receita
+- Assistir ao vídeo da receita (quando disponível)
+- Adicionar e remover receitas dos favoritos
+- Armazenar favoritos no LocalStorage
+- Filtrar receitas por categoria
+- Ordenar receitas de A-Z e Z-A
+- Layout responsivo para desktop, tablet e celular
 
-## React Compiler
+## Tecnologias Utilizadas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- React Router
+- JavaScript
+- CSS
+- Vite
+- TheMealDB API
+- LocalStorage
 
-## Expanding the ESLint configuration
+## Objetivo do Projeto
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Este projeto foi desenvolvido com o objetivo de praticar conceitos fundamentais do React, incluindo componentes, props, estado, efeitos, rotas, consumo de API, armazenamento local e responsividade.
+
+## Como Executar o Projeto
+
+1. Clone o repositório:
+
+git clone URL_DO_REPOSITORIO
+
+2. Acesse a pasta do projeto:
+
+cd chef-em-casa
+
+3. Instale as dependências:
+
+npm install
+
+4. Execute o projeto:
+
+npm run dev
+
+## Deploy
+
+Projeto publicado utilizando Vercel.
+
+## Autora
+
+Thaís Duarte Ferreira
