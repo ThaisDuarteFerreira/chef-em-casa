@@ -8,7 +8,15 @@ const Header = () => {
       <h1 className="header-titulo">Chef em Casa</h1>
       <p className="header-subtitulo">Descubra receitas deliciosas</p>
       <nav className="header-nav">
-        <Link to="/">Home</Link> | <Link to="/favoritos">Favoritos</Link>
+        <Link
+          to="/"
+          onClick={() => {
+            window.location.href = "/";
+          }}
+        >
+          Home
+        </Link>{" "}
+        | <Link to="/favoritos">Favoritos</Link>
       </nav>
     </header>
   );
